@@ -1,0 +1,16 @@
+img {
+	width: 30%;
+	height: 70%;
+
+
+
+}
+p {
+	text-align: justify;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+
+body { background: pink; }
