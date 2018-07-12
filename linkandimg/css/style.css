@@ -14,3 +14,12 @@ h1 {
 }
 
 body { background: pink; }
+
+a:link {
+	color: red
+
+
+}
+a:visited {
+	color: green
+}

@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #33333359;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+	padding-bottom: 5%;
+}
+
+img {
+	max-width: 100%;
+	max-height: 500px;
+}
+
+.rotate-left {
+	width: 48%;
+	transform: rotate(-7deg) translate(50%);
+}
+
+.rotate-right {
+	width: 48%;
+	transform: rotate(7deg) translate(50%);
+}
+
+.images {
+	width: 100%;
+	opacity: 0.5;
+}
+
+.images img {
+	margin: 3px;
+}
+
+.images:hover {
+	opacity: 1;
+}
+
+.back {
+	box-shadow: 12px 12px 6px indianred;
+	padding: 10px 10px 0px 10px;
+	background-color:  white;
+	border: 1px solid white;
